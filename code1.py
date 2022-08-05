@@ -47,7 +47,7 @@ char errmsg[512];
 char outbuf[512];
 char user[20];
 char password[20];
-printf("Username: ");
+print("Username: ");
 gets(user);
 
 if (strcmp(user,"Adm1n") == 0){
